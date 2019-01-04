@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER underzero
+MAINTAINER foxhaunt
 RUN apt-get update && apt-get install -y net-tools iptables ssh dns2tcp nano
 RUN mkdir -p /opt/dns2tcp
 RUN mkdir -p /root/.ssh
